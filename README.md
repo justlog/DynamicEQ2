@@ -1,7 +1,9 @@
 # DynamicEQ2
 
 ## What is this?
-A musical equalizer with dynamic processing. In short, Each frequency band is being attenuated according to a volume threshold set by the 
+A musical equalizer with dynamic processing written using C++ and the JUCE framework.
+
+In short, Each frequency band is being attenuated according to a volume threshold set by the 
 user. The equalizer is equipped with a 24dB/oct lowpass/highpass and 7  24dB/oct bell filters.
 
 Example running inside a REAPER DAW:
